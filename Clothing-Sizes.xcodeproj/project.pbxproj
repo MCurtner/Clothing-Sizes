@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BA552D9B1D71EEAA000AFA32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA552D9A1D71EEAA000AFA32 /* AppDelegate.swift */; };
-		BA552D9D1D71EEAA000AFA32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA552D9C1D71EEAA000AFA32 /* ViewController.swift */; };
 		BA552DA01D71EEAA000AFA32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA552D9E1D71EEAA000AFA32 /* Main.storyboard */; };
 		BA552DA21D71EEAA000AFA32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA552DA11D71EEAA000AFA32 /* Assets.xcassets */; };
 		BA552DA51D71EEAA000AFA32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA552DA31D71EEAA000AFA32 /* LaunchScreen.storyboard */; };
 		BA552DB01D71EEAA000AFA32 /* Clothing_SizesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA552DAF1D71EEAA000AFA32 /* Clothing_SizesTests.swift */; };
+		BA552DBB1D71EF24000AFA32 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA552DBA1D71EF24000AFA32 /* Person.swift */; };
+		BA552DBD1D71F23B000AFA32 /* PersonsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA552DBC1D71F23B000AFA32 /* PersonsTableVC.swift */; };
+		BA552DC01D71FC36000AFA32 /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA552DBF1D71FC36000AFA32 /* PeopleCell.swift */; };
+		C635D97A7E7DCA47080E3ECE /* Pods_Clothing_SizesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1D2177CB262714AD3F8510 /* Pods_Clothing_SizesTests.framework */; };
+		E888AD592B9CC4EEEE45C98D /* Pods_Clothing_Sizes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21506AC479EC05C69BF2CCF6 /* Pods_Clothing_Sizes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1516287436436753D9E91EFC /* Pods-Clothing-Sizes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clothing-Sizes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clothing-Sizes/Pods-Clothing-Sizes.release.xcconfig"; sourceTree = "<group>"; };
+		21506AC479EC05C69BF2CCF6 /* Pods_Clothing_Sizes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clothing_Sizes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1FE750213B86D94E361E62 /* Pods-Clothing-SizesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clothing-SizesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clothing-SizesTests/Pods-Clothing-SizesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1D2177CB262714AD3F8510 /* Pods_Clothing_SizesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clothing_SizesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA552D971D71EEAA000AFA32 /* Clothing-Sizes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clothing-Sizes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA552D9A1D71EEAA000AFA32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA552D9C1D71EEAA000AFA32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA552D9F1D71EEAA000AFA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA552DA11D71EEAA000AFA32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA552DA41D71EEAA000AFA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +43,11 @@
 		BA552DAB1D71EEAA000AFA32 /* Clothing-SizesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clothing-SizesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA552DAF1D71EEAA000AFA32 /* Clothing_SizesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing_SizesTests.swift; sourceTree = "<group>"; };
 		BA552DB11D71EEAA000AFA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA552DBA1D71EF24000AFA32 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BA552DBC1D71F23B000AFA32 /* PersonsTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsTableVC.swift; sourceTree = "<group>"; };
+		BA552DBF1D71FC36000AFA32 /* PeopleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		DCB923A09ADD42258BA632FB /* Pods-Clothing-SizesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clothing-SizesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clothing-SizesTests/Pods-Clothing-SizesTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6F41E89A1E4F5C38E676823 /* Pods-Clothing-Sizes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clothing-Sizes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clothing-Sizes/Pods-Clothing-Sizes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E888AD592B9CC4EEEE45C98D /* Pods_Clothing_Sizes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C635D97A7E7DCA47080E3ECE /* Pods_Clothing_SizesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8404217731B886C9A617FFF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F41E89A1E4F5C38E676823 /* Pods-Clothing-Sizes.debug.xcconfig */,
+				1516287436436753D9E91EFC /* Pods-Clothing-Sizes.release.xcconfig */,
+				5E1FE750213B86D94E361E62 /* Pods-Clothing-SizesTests.debug.xcconfig */,
+				DCB923A09ADD42258BA632FB /* Pods-Clothing-SizesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE9C01BD05C0F73F49424D3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21506AC479EC05C69BF2CCF6 /* Pods_Clothing_Sizes.framework */,
+				7B1D2177CB262714AD3F8510 /* Pods_Clothing_SizesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA552D8E1D71EEAA000AFA32 = {
 			isa = PBXGroup;
 			children = (
 				BA552D991D71EEAA000AFA32 /* Clothing-Sizes */,
 				BA552DAE1D71EEAA000AFA32 /* Clothing-SizesTests */,
 				BA552D981D71EEAA000AFA32 /* Products */,
+				8404217731B886C9A617FFF5 /* Pods */,
+				AE9C01BD05C0F73F49424D3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,10 +113,11 @@
 		BA552D991D71EEAA000AFA32 /* Clothing-Sizes */ = {
 			isa = PBXGroup;
 			children = (
-				BA552D9A1D71EEAA000AFA32 /* AppDelegate.swift */,
-				BA552D9C1D71EEAA000AFA32 /* ViewController.swift */,
-				BA552D9E1D71EEAA000AFA32 /* Main.storyboard */,
+				BA552DBE1D71F271000AFA32 /* Model */,
+				BA552DC11D7205E0000AFA32 /* View */,
 				BA552DA11D71EEAA000AFA32 /* Assets.xcassets */,
+				BA552D9A1D71EEAA000AFA32 /* AppDelegate.swift */,
+				BA552D9E1D71EEAA000AFA32 /* Main.storyboard */,
 				BA552DA31D71EEAA000AFA32 /* LaunchScreen.storyboard */,
 				BA552DA61D71EEAA000AFA32 /* Info.plist */,
 			);
@@ -96,6 +133,23 @@
 			path = "Clothing-SizesTests";
 			sourceTree = "<group>";
 		};
+		BA552DBE1D71F271000AFA32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA552DBA1D71EF24000AFA32 /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BA552DC11D7205E0000AFA32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA552DBC1D71F23B000AFA32 /* PersonsTableVC.swift */,
+				BA552DBF1D71FC36000AFA32 /* PeopleCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA552DB41D71EEAA000AFA32 /* Build configuration list for PBXNativeTarget "Clothing-Sizes" */;
 			buildPhases = (
+				BE2B593A968E59F822A64C96 /* [CP] Check Pods Manifest.lock */,
 				BA552D931D71EEAA000AFA32 /* Sources */,
 				BA552D941D71EEAA000AFA32 /* Frameworks */,
 				BA552D951D71EEAA000AFA32 /* Resources */,
+				8411438F64E2BDADDC350734 /* [CP] Embed Pods Frameworks */,
+				8A641FB9CF0A38A922223436 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA552DB71D71EEAA000AFA32 /* Build configuration list for PBXNativeTarget "Clothing-SizesTests" */;
 			buildPhases = (
+				4636D1E2B47BB152D373A0C3 /* [CP] Check Pods Manifest.lock */,
 				BA552DA71D71EEAA000AFA32 /* Sources */,
 				BA552DA81D71EEAA000AFA32 /* Frameworks */,
 				BA552DA91D71EEAA000AFA32 /* Resources */,
+				C9E293D019915621F0BB56BD /* [CP] Embed Pods Frameworks */,
+				6D72FB2B4A2BEA67825C6927 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,13 +252,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4636D1E2B47BB152D373A0C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D72FB2B4A2BEA67825C6927 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clothing-SizesTests/Pods-Clothing-SizesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8411438F64E2BDADDC350734 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clothing-Sizes/Pods-Clothing-Sizes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A641FB9CF0A38A922223436 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clothing-Sizes/Pods-Clothing-Sizes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE2B593A968E59F822A64C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E293D019915621F0BB56BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clothing-SizesTests/Pods-Clothing-SizesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA552D931D71EEAA000AFA32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA552D9D1D71EEAA000AFA32 /* ViewController.swift in Sources */,
+				BA552DC01D71FC36000AFA32 /* PeopleCell.swift in Sources */,
+				BA552DBB1D71EF24000AFA32 /* Person.swift in Sources */,
 				BA552D9B1D71EEAA000AFA32 /* AppDelegate.swift in Sources */,
+				BA552DBD1D71F23B000AFA32 /* PersonsTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +480,7 @@
 		};
 		BA552DB51D71EEAA000AFA32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F41E89A1E4F5C38E676823 /* Pods-Clothing-Sizes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Clothing-Sizes/Info.plist";
@@ -336,6 +492,7 @@
 		};
 		BA552DB61D71EEAA000AFA32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1516287436436753D9E91EFC /* Pods-Clothing-Sizes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Clothing-Sizes/Info.plist";
@@ -347,6 +504,7 @@
 		};
 		BA552DB81D71EEAA000AFA32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1FE750213B86D94E361E62 /* Pods-Clothing-SizesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Clothing-SizesTests/Info.plist";
@@ -359,6 +517,7 @@
 		};
 		BA552DB91D71EEAA000AFA32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB923A09ADD42258BA632FB /* Pods-Clothing-SizesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Clothing-SizesTests/Info.plist";
@@ -388,6 +547,7 @@
 				BA552DB61D71EEAA000AFA32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA552DB71D71EEAA000AFA32 /* Build configuration list for PBXNativeTarget "Clothing-SizesTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +556,7 @@
 				BA552DB91D71EEAA000AFA32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

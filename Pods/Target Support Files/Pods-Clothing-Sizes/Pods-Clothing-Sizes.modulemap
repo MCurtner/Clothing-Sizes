@@ -1,0 +1,6 @@
+framework module Pods_Clothing_Sizes {
+  umbrella header "Pods-Clothing-Sizes-umbrella.h"
+
+  export *
+  module * { export * }
+}
